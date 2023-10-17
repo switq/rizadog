@@ -154,7 +154,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-around;
+    gap: 2em;
     height: 100%;
     align-self: stretch;
 }
@@ -179,7 +179,7 @@ nav a:hover {
 }
 
 
-#fecha {
+.fechar {
     font-size: 4em;
     color: var(--light01);
 }
