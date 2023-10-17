@@ -17,7 +17,6 @@ function itemMenu() {
 }
 
 document.getElementById('map').addEventListener('click', e => toggleMap(e));
-document.getElementById('fechaMapa').addEventListener('click', e => toggleMap(e));
 document.getElementById('mapa').addEventListener('click', e => toggleMap(e));
 
 document.getElementById('menuToggle').addEventListener('click', e => toggleMenu(e));
